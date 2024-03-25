@@ -1,0 +1,136 @@
+* {
+    margin-top: 5;
+    padding: 1px;
+    box-sizing: border-box;
+    overflow: auto;
+    
+}
+ body{
+    font-family: poppins, sans-serif;
+    background-color: #f0f0f0;
+ }
+
+.logo-txt {
+    font-size: larger;
+    font-style: italic;
+    font-weight: 100;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+ 
+.sub-head {
+    /* font-size: larger; */
+    text-align: center;
+    font-style: italic;
+    margin: 1em;
+    padding: 0px 1rem;
+
+}
+
+.objective {
+    font-size: xx-large;
+    border: rgb(250, 239, 215);
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    font-family: arial, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-top-style: inset;
+    border-radius: 0.5rem;
+    border-width: 0.5rem; 
+    padding: 10px;
+    width: 1000px;
+}
+
+h1, .sub-head, .objective {
+    text-decoration: solid;
+    color: rgb(230, 235, 240);
+} 
+#ul-nav {
+    list-style: none;
+    color: hsl(41, 83%, 50%);
+    background-image: url(https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg);
+
+}
+ul {
+    /* font-size: large; */
+    font: bold;
+    color: rgb(12, 7, 7);
+}
+
+.business, .industries, .audience, .management {
+    text-align: center;
+    font-style: italic;
+    border-style: solid;
+    height: fit-content;
+    border-top-width: 8px;
+    background-color: white;
+    border-bottom-width: 3px;
+    /* border-color: #d81d1d; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 350px;
+    border-right: 5px;
+    border-left: 5px;
+    padding-top: 10px;
+    padding: 5px;
+    box-shadow: 5px 10px 10px #a3a5ae;
+    
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    margin-top: 0;
+    gap: 30px;
+    height: fit-content;
+    box-shadow: 0px, 5px, 3px, #a3a5ae;
+
+}
+.audistry {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 30px; */
+}
+main {
+    /* width: 75rem; */
+    /* align-items: left; */
+    /* border-color: rgb(126, 126, 233); */
+    /* border-style: ridge; */
+    /* padding-left: 30px; */
+    /* border-top: 5px; */
+    /* border-bottom: 5px; */
+    /* border-right: 5px; */
+    /* border-left: 5px; */
+    /* border-width: 10px; */
+    /* border-radius: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+    background-image: url(https://www.ntc.edu/sites/default/files/styles/full_width_16_9/public/2021-06/software-development-specialist.jpg?itok=D8qgVwxb);
+    /* gap: 40px; */
+    
+}
+.business {
+    border-top-color: hsl(0, 78%, 62%);
+}
+
+.industries {
+    border-top-color:hsl(180, 62%, 55%); ;
+}
+.audience {
+    border-top-color: hsl(34, 97%, 64%);
+}
+.management {
+    border-top-color:  hsl(212, 86%, 64%); 
+}
